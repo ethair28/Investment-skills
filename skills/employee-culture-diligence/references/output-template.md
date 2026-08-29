@@ -1,175 +1,143 @@
-# Output Template
+# Response Guidance
 
-Use this structure by default. Adapt length to the evidence and user request.
+The skill should optimize for **investment insight**, not template compliance.
 
-# Employee Culture Diligence — [Company]
+Use whatever structure best communicates the answer to the user's actual question.
 
-## Bottom line
+## Default principles
 
-Give a concise investor-oriented culture fingerprint.
+A strong response usually makes clear:
 
-Do not lead with headline workplace ratings.
+- what the strategically relevant employee evidence suggests;
+- why those employees are the right people to listen to;
+- which findings are current versus historical;
+- what organizational mechanisms appear to be operating;
+- what those mechanisms imply for the investment thesis;
+- where the evidence is contradictory or weak;
+- what organizational risk or advantage matters most.
 
-State the most important organizational strength, the most important weakness, and the direction of travel if sufficiently supported.
+These do not require separate headings.
+
+## Lead with the non-obvious insight
+
+Do not lead with a headline workplace score unless that score itself is analytically important.
+
+Lead with the finding that most changes the investment view.
+
+Examples of useful shapes:
+
+- "The headline culture looks mediocre, but the core engineering organization appears exceptional."
+- "Employees are unhappy about the same behavior that makes the organization strategically adaptive."
+- "The CEO remains highly respected, but middle management is becoming the execution bottleneck."
+- "The culture looks strong today, but the historical evidence suggests a real deterioration under new leadership."
+
+## Evidence and inference
+
+The reader should be able to distinguish:
+
+**Evidence:** what employees or sources actually indicate.
+
+**Inference:** the organizational mechanism that best explains the evidence.
+
+**Investor implication:** why that mechanism matters for shareholder value.
+
+You can make this distinction in prose, bullets, or a table. Do not force one presentation style.
 
 ## Evidence quality
 
-Explain the evidence base:
+Discuss evidence quality when it changes how strongly the conclusion should be held.
 
-- recency;
-- key sources;
-- current/former visibility;
-- Tier 1 role coverage;
-- senior technical coverage;
-- important locations/business units;
-- major gaps.
+Useful limitations include:
+- few recent strategically relevant reviews;
+- inability to distinguish current from former employees;
+- weak business-unit attribution;
+- dependence on one source;
+- newly acquired teams not yet represented;
+- trajectory conclusions based on unlike cohorts across time.
 
-Only state exact review counts when actually counted or directly reported.
+Do not provide ritual sample counts unless actually known and useful.
 
-Assign confidence: **High / Medium / Low**, with a short reason.
+## Current culture versus trajectory
 
-## Strategically relevant cohorts
+Do not blur these concepts.
 
-Identify which employees matter most to the investment question and why.
+When trajectory is important, make it explicit whether the evidence supports:
+- improvement;
+- stability;
+- deterioration;
+- deliberate transformation;
+- integration disruption;
+- post-hypergrowth normalization;
+- or simply insufficient evidence.
 
-Note when the relevant cohort differs materially from the company-wide average.
-
-## Current organizational culture
-
-Describe today's organization using primarily evidence from the last 24 months.
-
-Cover the dimensions that matter most, such as:
-
-- technical talent;
-- technical ambition;
-- ownership;
-- execution speed;
-- decision quality;
-- customer orientation;
-- adaptability;
-- management layers;
-- bureaucracy/politics;
-- coordination;
-- performance bar;
-- retention;
-- compensation where strategically relevant.
-
-Do not inflate the report by discussing dimensions with little investment relevance.
-
-## Highest-value signals
-
-Present the 3–7 observations with the greatest investor information content.
-
-For each, make clear:
-
-**Evidence → inferred mechanism → investor implication**
-
-Prefer specific, corroborated mechanisms.
+Use older reviews as directional context rather than present-day votes.
 
 ## Counter-sentiment evidence
 
-Highlight employee-positive facts that may be shareholder-negative and employee-negative facts that may be shareholder-positive.
+Highlight counter-sentiment evidence whenever it materially changes the investment interpretation.
 
-This section is mandatory when such evidence exists.
+It does not need its own mandatory section.
 
-## Management and leadership
-
-Separate:
-
-- CEO/top leadership;
-- middle management;
-- local team leadership.
-
-Pay particular attention to negative reviewers who still praise leadership or positive reviewers who identify leadership weaknesses.
+Examples:
+- an angry employee still praising the CEO;
+- complaints confirming deep AI adoption;
+- high WLB revealing low challenge;
+- layoffs revealing disciplined resource reallocation;
+- positive reviews quietly warning about talent departures.
 
 ## Internal variation
 
-Explain meaningful differences by:
+If the organization contains materially different cultures, explain the dispersion rather than averaging it away.
 
-- team;
-- function;
-- business unit;
-- acquisition history;
-- geography;
-- seniority.
-
-Call out strategic cores that differ from headline company ratings.
-
-## Cultural trajectory
-
-Analyze history separately from the current snapshot.
-
-State whether the evidence supports:
-
-- improving;
-- stable;
-- deteriorating;
-- deliberate transformation;
-- acquisition/integration disruption;
-- unclear.
-
-Use older reviews as directional context, not current-state votes.
-
-Where possible, anchor changes to dated management or company events.
-
-## Strategic fit
-
-Ask whether this culture is well matched to the company's market and strategy.
-
-A culture can be unpleasant for employees and still strategically effective; it can also be pleasant but strategically weak.
-
-Explain the tradeoff.
+This is especially important when:
+- core technical teams differ from the company average;
+- acquired businesses differ from legacy operations;
+- one geography or product group is strategically dominant;
+- frontier teams are intense while mature teams are comfortable.
 
 ## Organizational weak link
 
-State the cultural/organizational weakness most likely to prevent the investment thesis from playing out.
+For full investment diligence, it is often useful to identify the causal organizational failure mode most relevant to the thesis.
 
-Be specific about the causal mechanism.
+Do not force this into narrow requests where it adds no value.
 
-## Investor conclusion
+## Monitoring
 
-Answer:
-
-**Does the employee evidence strengthen, weaken, or leave unchanged the investment thesis?**
-
-Explain why without pretending culture alone determines the investment outcome.
-
-## What to monitor
-
-List 2–4 concrete future employee-review signals that would indicate improvement or deterioration over the next 12–24 months.
+When useful, finish with a few concrete future employee signals that would update the thesis.
 
 Examples:
-- senior technical employees begin describing departures of respected peers;
-- new reviews say decisions became faster after flattening;
-- complaints about a new management layer spread across multiple core teams;
-- software engineers report materially better tooling and technical standards.
+- respected senior people begin leaving;
+- management-layer complaints spread into core teams;
+- post-reorganization reviews show faster decisions;
+- previously weak software teams begin describing better standards and talent;
+- founder accessibility disappears as the organization scales.
 
----
+## Comparisons
 
-# Comparison Mode
+For comparisons, build an independent view of each organization before making relative judgments.
 
-For two-company comparisons, first create the standalone view for each company internally, then present a relative assessment.
+Compare the dimensions that matter to the competitive problem. Do not mechanically compare every cultural category or award a winner based on overall ratings.
 
-Recommended final comparison:
+The best comparative conclusion often explains:
+- where each culture has an advantage;
+- which advantage is strategically more valuable in the current market;
+- which company is improving or deteriorating;
+- what one organization can do culturally that the other may struggle to match.
 
-| Dimension | Company A | Company B | Advantage / interpretation |
-|---|---|---|---|
+## Discovery / screening
 
-Only compare dimensions supported by reasonably equivalent evidence.
+For open-ended discovery, the output should behave like idea generation, not a workplace ranking.
 
-Focus on:
-- current organizational capability;
-- strategic fit;
-- trajectory;
-- core cohort quality;
-- leadership;
-- organizational weak links.
+Surface companies where employee evidence suggests organizational quality that may be:
+- unusually strong;
+- strategically relevant;
+- hidden by company-wide averages;
+- underrecognized in the investor narrative.
 
-Do not award a winner based on overall employee ratings.
+Explain why each signal is unusual and why it might matter economically. Then distinguish organizational quality from valuation/market-underappreciation evidence rather than assuming the latter.
 
-End with:
+## Brevity versus depth
 
-1. Which culture is better suited to the competitive problem today?
-2. Which culture appears to be improving faster?
-3. What cultural advantage is durable versus temporary?
-4. What finding most changes the investment comparison?
+Use depth where the evidence is surprising, contradictory, or thesis-relevant.
+
+Do not exhaustively discuss every dimension merely because it appears in the methodology.
