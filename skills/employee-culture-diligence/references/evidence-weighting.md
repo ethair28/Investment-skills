@@ -1,194 +1,166 @@
-# Evidence Weighting
+# Evidence Heuristics
 
-Use this reference when collecting and weighing employee evidence.
+Use these heuristics to reason about employee evidence. They are not a scoring formula and should not force a rigid output format.
 
-## 1. Evidence value is multidimensional
+## Evidence value is multidimensional
 
-Judge each review or discussion using:
+Consider:
 
 **role relevance × recency × current/former status × seniority/context × tenure × specificity × corroboration × potential bias**
 
-Do not convert this into a rigid numerical formula unless the task specifically requires quantitative scoring. The purpose is disciplined reasoning.
+The weight depends on the claim being evaluated.
 
-## 2. Role relevance is claim-dependent
+## Role relevance is claim-dependent
 
-The same employee can be high-value evidence for one question and low-value evidence for another.
+The same employee can be highly informative for one question and weak evidence for another.
 
 Examples:
 
-- Senior IC designers, architects, firmware engineers, and technical leaders: high value for semiconductor technical culture.
-- Applications engineers / FAEs: high value for customer problems and product responsiveness.
+- Senior IC designers, architects, firmware engineers, researchers, and technical leaders: strong evidence for technical talent and engineering culture.
+- Applications engineers / FAEs: strong evidence for customer pain, product responsiveness, and execution at the boundary with customers.
 - Sales: useful for competitive reception and commercial execution.
-- HR/support: useful for company-wide morale or process, lower value for core engineering capability.
-- Managers with long tenure: useful for organizational change, but their managerial perspective can carry its own bias.
+- Product/program roles: useful for prioritization and cross-team coordination.
+- HR/support: useful for broad morale/process, lower value for core technical capability.
+- Long-tenured managers or senior ICs: especially useful for change over time.
 
-Before synthesizing, state which cohorts are Tier 1 for the specific investment thesis.
+Identify the strategically relevant cohorts before interpreting headline ratings.
 
-## 3. Recency
+## Recency
 
-Use:
+For present-day culture, use recent evidence first.
 
-- 0–12 months: primary current evidence.
-- 12–24 months: strong supporting current evidence.
-- 2–4 years: mainly persistence/trajectory evidence.
-- 4+ years: historical context.
+A useful default:
 
-Exceptions require a reason. For example, a long-tenured reviewer explicitly comparing 2019 with 2026 can be valuable for trajectory even if the review recounts older periods.
+- **0–12 months:** primary current evidence.
+- **12–24 months:** strong supporting current evidence.
+- **2–4 years:** mainly persistence or trajectory evidence.
+- **4+ years:** historical context.
 
-Do not average old and new reviews into one current-state score.
+This is a reasoning guide, not a mechanical decay formula.
 
-## 4. Current versus former employees
+Historical evidence can be very valuable when a long-tenured reviewer explicitly compares periods, but it should not be counted as a current-state vote.
 
-For present culture, prefer current employees.
+## Current versus former employees
 
-Do not automatically dismiss former employees.
+For today's culture, current employees generally deserve more weight.
 
-Former employees can be high-value when they:
-- held a strategically relevant senior role;
+Former employees can still be exceptionally useful when they:
+- held a strategically relevant role;
 - had long tenure;
-- explain concrete mechanisms;
+- describe concrete mechanisms;
 - compare periods;
-- identify specific leadership changes;
-- describe departures of important people;
-- provide information that current employees may be reluctant to state.
+- explain why they left;
+- identify departures of respected people;
+- reveal information current employees may be reluctant to state.
 
-Downweight generic post-exit anger.
+Downweight generic post-exit anger, not factual specificity.
 
-## 5. Layoff bias
+## Layoffs and restructuring bias
 
-A layoff can bias sentiment without invalidating factual content.
+Layoffs can distort sentiment without eliminating information.
 
-Low-value:
-- "Terrible company, they laid me off."
+Low-information example:
+- "Terrible company; they laid me off."
 
-Higher-value:
-- "After the restructuring the systems team lost four senior engineers, ownership moved to three orgs, and review latency doubled."
+Higher-information example:
+- "After the restructuring, three senior architects left, ownership moved across several teams, and design reviews slowed materially."
 
-Ask whether the review supplies independently checkable mechanisms rather than just emotion.
+Also evaluate the restructuring itself from an investor perspective:
+- rational removal of excess cost?
+- deliberate concentration on strategic areas?
+- flattening of management?
+- loss of critical institutional knowledge?
+- recurring instability that destroys ownership?
 
-Also evaluate the layoff itself from an investor perspective:
-- necessary removal of excess headcount?
-- loss of critical talent?
-- deliberate flattening?
-- recurring instability?
-- evidence that survivors lost trust or ownership?
+## Specificity beats generic volume
 
-## 6. Specificity and mechanism
+Prefer evidence describing:
+- what changed;
+- where it changed;
+- who or what layer drove it;
+- when it happened;
+- what observable consequence followed.
 
-Prefer:
-- who changed;
-- what process changed;
-- what product/team was affected;
-- what observable consequence followed;
-- when it occurred.
+Different language can reveal the same mechanism.
 
-Cluster different language that describes the same mechanism.
-
-Examples:
+For example:
 - "too many approvals"
-- "VP signoff for everything"
-- "managers have no authority"
-- "decisions now take weeks"
+- "everything needs VP signoff"
+- "managers cannot decide"
+- "decisions take weeks"
 
-These may all support a **decision bureaucracy** cluster.
+may all support a **decision bureaucracy** theme.
 
-## 7. Corroboration
+## Corroboration
 
-Increase confidence when:
-- independent employees;
-- different teams;
-- different sources;
-- relevant roles;
-- similar time periods
+Confidence rises when independent employees from relevant roles, teams, locations, or sources describe the same mechanism.
 
-describe the same underlying mechanism.
+Do not mistake copied content or search snippets quoting the same original review for independent corroboration.
 
-Do not confuse duplicate/copied content with corroboration.
+One unusually detailed review can be a high-value signal without being sufficient for a company-wide conclusion.
 
-A single highly specific review can be important but should normally be presented as a signal to watch rather than a settled company-wide conclusion.
+## Counter-sentiment evidence
 
-## 8. Counter-sentiment evidence
-
-Explicitly flag statements that run against the reviewer's overall sentiment.
-
-These can be unusually diagnostic because they are less likely to be generic praise or venting.
+Statements that cut against the reviewer's overall emotion are often unusually informative.
 
 Examples:
 
-- A 1-star tenured engineer calls the CEO exceptional.
-- A 5-star employee warns that elite engineers are leaving.
-- An engineer complains that AI usage is excessive.
-- An employee hates long hours caused by rapidly growing customer demand.
-- A happy employee says the job requires little work and offers little learning.
+- A deeply negative tenured engineer still calls the CEO exceptional.
+- A highly positive employee says elite engineers are leaving.
+- An engineer complains that AI adoption is excessive.
+- An employee hates workload caused by exploding customer demand.
+- A happy employee says there is little work, little learning, and almost no accountability.
 
-Translate the factual content before translating the sentiment.
+First extract the organizational fact; then decide what it means for the shareholder.
 
-## 9. Headline ratings
+## Headline ratings
 
-Use overall Glassdoor/Blind/Indeed ratings only as context.
+Treat overall Glassdoor/Blind/Indeed scores as context, not conclusions.
 
 They can be distorted by:
-- irrelevant employee populations;
-- acquisitions;
+- irrelevant functions;
+- acquired businesses;
 - layoffs;
-- geographic mix;
-- very old reviews;
+- old reviews;
+- geography;
 - support/customer-service populations;
-- differences in compensation expectations.
+- different expectations around compensation or WLB.
 
-Search for role-specific and location-specific cohorts when strategically meaningful.
+Role-specific, business-unit-specific, or location-specific evidence can be far more relevant to the investment thesis.
 
-A semiconductor company's core IC-design population may have a culture that is dramatically different from the company-wide average.
+## Employee evidence versus corporate context
 
-## 10. Source confidence
+Keep these conceptually separate.
 
-A rough qualitative hierarchy:
+**Employee evidence:** what employees say they observe about talent, management, process, decisions, workload, customers, departures, etc.
 
-### Higher confidence
-- verified/current status shown;
-- exact role and date;
-- detailed pros/cons;
-- role-specific cohort pages;
-- multiple independent sources.
+**Corporate context:** CEO changes, acquisitions, layoffs, strategic pivots, headcount changes, RTO rules, product shifts, and financial disclosures.
 
-### Medium confidence
-- role/date known but employment status unclear;
-- less-detailed review text;
-- employer-specific forum posts.
+Corporate context can explain or test an employee-described change, but it is not proof that the cultural mechanism exists.
 
-### Lower confidence
-- Reddit or anonymous forum claims with unverifiable employment;
-- snippets without sufficient context;
-- unattributed summaries.
+## Source quality
 
-Lower-confidence evidence can corroborate a theme but should rarely anchor a major conclusion alone.
+Higher-confidence evidence often includes:
+- exact role;
+- recent date;
+- current/former status;
+- tenure;
+- detailed text;
+- a relevant subgroup page;
+- independent corroboration.
 
-## 11. Evidence audit
+Lower-confidence sources such as anonymous Reddit/forum posts can still be useful for corroboration or hypothesis generation, but should rarely anchor a major conclusion alone when employment is unverifiable.
 
-Before concluding, report what can reasonably be established:
+## Evidence sufficiency
 
-- recency of the corpus;
-- whether current/former status is available;
-- representation of Tier 1 roles;
-- representation of senior technical employees;
-- major sources;
-- relevant locations/business units;
-- important blind spots.
+Do not manufacture exact sample counts or confidence.
 
-Do not fabricate exact counts.
+Ask whether there is enough strategically relevant evidence for the claim being made.
 
-If the strategically relevant sample is thin, lower confidence even if the company has thousands of total reviews.
+A company may have thousands of total reviews and still have poor evidence for the small technical group that actually matters to the thesis.
 
-## 12. Avoid false precision
+## Avoid false precision
 
 Do not reduce culture to a weighted arithmetic score by default.
 
-The useful output is a reasoned map of:
-- mechanisms;
-- relevant cohorts;
-- contradictions;
-- trajectory;
-- strategic implications;
-- uncertainty.
-
-Quantification is useful only when the data actually supports it.
+The useful output is a reasoned understanding of mechanisms, internal variation, contradictions, trajectory, strategic implications, and uncertainty.
