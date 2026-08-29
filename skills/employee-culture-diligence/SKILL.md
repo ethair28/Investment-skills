@@ -1,242 +1,150 @@
 ---
 name: employee-culture-diligence
-description: Conduct investor-oriented employee culture diligence using current employee reviews, discussions, and related evidence. Use when asked to assess a company's culture, management, engineering organization, talent density, execution capability, organizational health, cultural trajectory, or to compare the employee cultures of two or more companies from an investment/shareholder perspective. Prioritize strategically relevant employee cohorts and recent evidence; distinguish employee sentiment from shareholder implications; use older reviews mainly to establish trajectory rather than current culture.
+description: Use employee reviews, employee discussions, and related public evidence as an investment-research signal. Apply when asked to assess a company's culture or organizational capability, compare company cultures, investigate a specific organizational question, analyze cultural change, monitor culture, or discover investable companies with unusually strong or underappreciated organizational cultures. Focus on what employees reveal about shareholder value creation rather than whether they enjoy working there.
 ---
 
 # Employee Culture Diligence
 
-## Objective
+## Purpose
 
-Infer what employee evidence reveals about an organization's ability to create shareholder value.
+Treat employee evidence as noisy observations of an organization's ability to create shareholder value.
 
-Do **not** answer the easier question, "Do employees like working here?" Employee satisfaction is evidence, not the objective.
+The goal is **not** to determine whether a company is a good place to work. The goal is to infer what employees reveal—often unintentionally—about the company's ability to:
 
-The primary questions are:
+- attract and retain important talent;
+- innovate and solve difficult problems;
+- execute quickly and reliably;
+- respond to customers and technological change;
+- allocate responsibility and make decisions;
+- maintain a high performance bar;
+- scale without becoming bureaucratic or political;
+- preserve, improve, or lose organizational capability over time.
 
-- What kind of organization is this today?
-- Does its culture fit the strategic environment in which it competes?
-- Can it execute the investment thesis?
-- What is improving or deteriorating?
-- What organizational weakness is most likely to prevent the thesis from playing out?
+Read `references/investment-lens.md` for the underlying investment mental model.
+
+## Core invariants
+
+These principles are more important than any report format.
+
+### 1. Employee sentiment is not investor sentiment
+
+Translate the factual content of a review independently from whether the employee liked it.
+
+A negative employee experience may reveal a shareholder-positive trait. A positive employee experience may reveal complacency, weak accountability, or stagnation. Determine the underlying organizational mechanism before judging it.
+
+### 2. Strategically relevant cohorts beat headline averages
+
+Before interpreting ratings, determine which employees actually have visibility into the capabilities that drive the investment thesis.
+
+Weight evidence according to the **claim being evaluated**. Senior engineers may dominate a technical-talent question; customer-facing technical staff may be more informative about product responsiveness; sales may be useful for competitive reception; long-tenured employees may be unusually useful for cultural change.
+
+Never let a company-wide Glassdoor/Blind/Indeed score override stronger evidence from a strategically important subgroup.
+
+### 3. Current culture and historical trajectory are separate questions
+
+Build the present-day view primarily from recent evidence, usually the last 24 months.
+
+Use older reviews mainly to understand persistence, change, management transitions, acquisitions, layoffs, hypergrowth, or other historical mechanisms. Do not let a great or terrible culture from years ago determine today's assessment.
+
+### 4. Mechanisms and corroboration beat generic sentiment
+
+Prefer specific observations that explain what changed, how decisions are made, why strong people stay or leave, how teams coordinate, or how management behaves.
+
+Several independent descriptions of the same mechanism matter more than many generic statements such as "great culture" or "bad management."
+
+### 5. Search for contradictions and counter-sentiment evidence
+
+Do not form a thesis after the first few reviews and then confirm it.
+
+Actively seek evidence that conflicts with the emerging view. Pay special attention when a reviewer says something that runs against their overall sentiment—for example, an angry employee praising leadership, or a happy employee describing little challenge or accountability.
+
+Read `references/evidence-heuristics.md` when weighing reviews, bias, recency, role relevance, layoffs, corroboration, and source quality.
+
+## Infer the research mode
+
+Do not force every request into the same report. Infer what the user is actually trying to learn.
+
+Common modes include:
+
+- **Single-company diligence:** What kind of organization is this, and what does that imply for the investment thesis?
+- **Competitive comparison:** Which organization is better suited to the competitive problem, and why?
+- **Specific thesis question:** Investigate a narrow organizational capability such as software quality, AI adoption, management, customer responsiveness, or ability to integrate acquisitions.
+- **Trajectory / monitoring:** Determine whether culture or organizational capability is improving, deteriorating, or transforming.
+- **Discovery / screening:** Search for investable companies where employee evidence reveals unusually strong or underappreciated organizational quality, including cases where headline ratings hide an exceptional strategic core.
+
+Read `references/research-modes.md` for mode-specific guidance.
+
+## Research approach
 
 Use current web research. Do not rely primarily on model memory.
 
-## Required workflow
+Prefer detailed individual employee evidence and strategically relevant cohorts from sources such as Glassdoor, Blind, Indeed, Comparably, Levels.fyi, credible employee forums, and lower-confidence supporting sources such as Reddit when employment cannot be established.
 
-Follow this order. Do not collapse current-state analysis and historical analysis into one pool.
+Use official company materials and credible reporting for factual context such as CEO changes, acquisitions, layoffs, headcount changes, strategic pivots, and restructurings. Keep **employee evidence** conceptually separate from **corporate context**: corporate events may explain a cultural change but are not themselves proof that the culture changed.
 
-### 1. Define the investment problem
+Do not bypass access controls or rely on prohibited scraping. Work with publicly accessible, search-indexed, or otherwise permitted material and state important coverage limitations.
 
-Briefly establish:
+## What to reason about
 
-- what the company does;
-- what capabilities actually drive its competitive position;
-- what kind of organizational behavior its market rewards;
-- which employee populations are most informative.
+Adapt the dimensions to the company and investment question. Useful dimensions often include:
 
-Do this before interpreting ratings or reviews.
-
-For example, core IC-design employees may be far more informative about a semiconductor networking thesis than employees from an acquired enterprise-software unit.
-
-### 2. Define evidence cohorts
-
-Create three conceptual tiers:
-
-- **Tier 1 — Core:** Employees directly responsible for strategically important capabilities.
-- **Tier 2 — Adjacent:** Employees with useful visibility into customers, product delivery, operations, sales execution, or cross-functional coordination.
-- **Tier 3 — General:** Employees useful mainly for broad management, morale, or company-wide context.
-
-Weight the employee according to the **claim being evaluated**, not according to one fixed hierarchy.
-
-Examples:
-- Senior engineers matter most for technical talent and engineering quality.
-- Customer-facing technical employees can be unusually valuable for product/customer fit.
-- Sales employees may be valuable for competitive reception.
-- Long-tenured employees can be valuable for management and culture change.
-- Support functions should not dominate conclusions about core R&D capability.
-
-### 3. Build the recent evidence set first
-
-Form the current-culture view primarily from the last 24 months.
-
-Use this recency framework as a reasoning guide, not a mechanical formula:
-
-- **0–12 months:** primary current-state evidence.
-- **12–24 months:** strong supporting evidence.
-- **2–4 years:** limited current-state weight; useful mainly for identifying persistence or change.
-- **4+ years:** historical context only.
-
-Do not let old positive or negative reviews determine today's culture.
-
-Read `references/evidence-weighting.md` before judging individual reviews.
-
-### 4. Form a provisional current-culture picture
-
-Before reading deeply into historical reviews, identify the strongest current themes across strategically relevant cohorts.
-
-Assess mechanisms, not just sentiment.
-
-Distinguish:
-- healthy intensity from dysfunction;
-- accountability from politics;
-- speed from organizational thrash;
-- stability from complacency;
-- aggressive cost discipline from destructive talent loss;
-- AI adoption from AI theater or metric gaming.
-
-Actively search for evidence contradicting the provisional view.
-
-### 5. Examine historical trajectory separately
-
-Only after the current-state view exists, use older reviews and dated corporate events to establish trajectory.
-
-Look for:
-- CEO or senior-leadership changes;
-- acquisitions and integrations;
-- layoffs and hypergrowth;
-- major strategic pivots;
-- expansion into new businesses;
-- persistent cultural traits versus newly emerging problems.
-
-Pay special attention to longitudinal statements such as:
-- "It used to be..."
-- "Since the new CEO..."
-- "After the acquisition..."
-- "Over my eight years here..."
-- "The best people began leaving after..."
-
-Old reviews are primarily evidence about **change**, not evidence about the present.
-
-### 6. Translate employee evidence into investor evidence
-
-For every high-value observation ask separately:
-
-1. What does this mean for the employee?
-2. What does this mean for the shareholder?
-
-Do not assume the signs match.
-
-Examples:
-- Brutal performance management can be employee-negative but investor-positive if it raises talent density and accountability.
-- Great work-life balance can be employee-positive but investor-negative if it reflects low expectations and stagnation.
-- Reorganizations can signal adaptability or destructive chaos.
-- An engineer complaining that AI is being pushed too aggressively can be strong evidence that AI adoption is real.
-- A very negative reviewer who still praises the CEO can provide unusually strong CEO evidence.
-
-Explicitly search for these **counter-sentiment signals**.
-
-### 7. Assess organizational dimensions
-
-Evaluate the dimensions that matter to the investment problem. Usually include:
-
-- technical talent density;
-- technical ambition;
-- innovation;
+- talent density and technical depth;
+- technical ambition and innovation;
 - ownership and autonomy;
-- execution speed;
-- decision quality;
+- execution speed and decision quality;
 - engineering/product quality;
 - customer orientation;
 - adaptability;
-- performance bar;
+- performance bar and incentive quality;
 - CEO/top-leadership credibility;
 - middle-management quality;
 - local team leadership;
-- bureaucracy;
-- internal politics;
+- bureaucracy and internal politics;
 - cross-team coordination;
 - organizational clarity;
-- talent retention;
-- career development;
-- compensation competitiveness;
-- ability to attract strategically important talent;
-- team-to-team or business-unit variance;
-- strategic fit of the culture.
+- retention and ability to recruit scarce talent;
+- compensation when strategically relevant;
+- team, business-unit, geography, or acquisition-related dispersion;
+- strategic fit between the culture and the market environment.
 
-Add company-specific dimensions where necessary.
+Do not mechanically score every dimension. Spend attention where the investment information is highest.
 
-Do not produce a single numerical culture score unless the user explicitly asks for one.
+## Hidden organizational quality
 
-### 8. Identify internal dispersion
+When screening or generating ideas, actively search for divergences between external perception and strategically relevant employee evidence.
 
-A company-wide average can conceal the most important result.
+Potentially interesting patterns include:
 
-Explicitly test whether:
-- strategically important teams are materially stronger or weaker than the company average;
-- locations differ;
-- acquired divisions differ from legacy divisions;
-- frontier teams differ from mature product teams;
-- technical employees view leadership differently from the broad employee base.
+- mediocre headline ratings but exceptional core engineering or product cohorts;
+- intense or demanding environments where even negative reviewers repeatedly praise talent, leadership, learning, or customer impact;
+- obscure companies where senior employees describe unusually high ownership, technical ambition, and peer quality;
+- legacy companies where current employees describe a real technological or organizational transformation;
+- highly rated workplaces where strategically important employees describe stagnation, low standards, weak talent, or loss of ambition.
 
-Never let headline workplace ratings override stronger evidence from the relevant cohort.
+Do not equate unusual culture with an investment opportunity by itself. For discovery requests, separately assess whether the organizational signal appears underappreciated by the market or investor narrative using appropriate external evidence.
 
-### 9. Identify the organizational weak link
+## Organizational weak link
 
-Answer:
+For investment diligence, ask:
 
-**What cultural or organizational weakness is most likely to prevent the investment thesis from playing out?**
+**If the investment thesis fails because of organization or culture rather than market structure or technology, what is the most plausible causal mechanism?**
 
-Be company-specific.
+This may be weak middle management, inability to build a critical capability, cross-team coordination, bureaucracy, talent attrition, failure to scale founder culture, destructive performance incentives, leadership deterioration, or something company-specific.
 
-Examples could include weak middle management, inability to build world-class software, cross-team coordination, bureaucracy, talent attrition, failure to scale founder culture, deteriorating leadership, or distorted performance incentives.
+The weak link should emerge from the evidence; do not force one when evidence is insufficient.
 
-### 10. Produce the report
+## Response style
 
-Read `references/output-template.md` and follow it unless the user requests a different format.
+Structure the answer around the **highest-value investment insights**, not around a mandatory template.
 
-The conclusion must state:
-- whether employee evidence strengthens, weakens, or leaves unchanged the investment thesis;
-- the strongest evidence behind that judgment;
-- the key risk to monitor;
-- confidence and important coverage limitations.
+Make the reasoning auditable enough that the reader can distinguish evidence, inference, uncertainty, and historical context. Cite high-value claims. Discuss evidence quality where it affects confidence.
 
-## Research discipline
+Do not clutter the response with ritual sections, exhaustive dimension scoring, or review counts unless they materially improve the analysis.
 
-Prefer individual review evidence and role-specific cohorts from sources such as Glassdoor, Blind, Indeed, Comparably, Levels.fyi, credible employee forums, and Reddit as lower-confidence supporting evidence.
+Read `references/response-guidance.md` for flexible presentation guidance.
 
-Use official company materials or credible reporting for factual context such as CEO changes, layoffs, acquisitions, headcount changes, and restructurings.
+## Core question
 
-Do not treat corporate culture claims as equivalent to employee evidence.
+Always return to:
 
-Do not bypass access controls or rely on prohibited scraping. Use publicly accessible, search-indexed, or otherwise permitted material. If a source cannot be accessed, note the coverage limitation and continue with available evidence.
-
-Cite factual claims and high-value employee evidence.
-
-Do not claim to have reviewed a specific number of reviews unless that number was actually counted or directly reported by the source.
-
-## Evidence standard
-
-Specificity and corroboration beat volume.
-
-Ten generic complaints about "bad management" may be weaker than three relevant senior employees independently describing the same approval bottleneck, leadership change, or talent departure.
-
-Separate:
-- observation;
-- inferred mechanism;
-- investor implication.
-
-Do not turn one vivid anecdote into a company-wide conclusion without corroboration.
-
-## Comparison mode
-
-When comparing companies:
-
-1. Build each company's evidence set independently.
-2. Use equivalent strategically relevant cohorts wherever possible.
-3. Apply the same recency standard.
-4. Form each current-culture view before comparing them.
-5. Analyze each trajectory separately.
-6. Compare dimensions only after both standalone assessments are complete.
-7. Do not infer that the company with the higher overall Glassdoor/Blind score has the stronger investor-relevant culture.
-
-The final comparison should emphasize relative organizational capability, strategic fit, trajectory, and weak links.
-
-## Core principle
-
-The goal is not:
-
-**"Do employees like this company?"**
-
-The goal is:
-
-**"What do employees unintentionally reveal about this organization's ability to create shareholder value?"**
+**What do employees reveal about this organization's ability to create shareholder value that may be difficult to see from financial statements, management presentations, or headline workplace ratings?**
